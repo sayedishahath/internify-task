@@ -36,7 +36,7 @@ Then update values:
 
 env
 PORT=5000
-MONGODB_URI=mongodb+srv://tekzaiaws:tekzai.aws@dashboard.wbnkx.mongodb.net/internify-task?retryWrites=true&w=majority&appName=dashboard
+MONGODB_URI=mongodb://127.0.0.1:27017/task-management
 JWT_SECRET=your-super-secret-key
 
 
