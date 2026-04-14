@@ -1,6 +1,5 @@
 # Task Management REST API
 
-A small and complete REST API built with **Express + TypeScript + MongoDB (Mongoose)**.
 
 ## Features
 
@@ -23,36 +22,31 @@ A small and complete REST API built with **Express + TypeScript + MongoDB (Mongo
 
 1. Install dependencies:
 
-```bash
+bash
 npm install
-```
+
 
 2. Create `.env` file from `.env.example`:
 
-```bash
+
 cp .env.example .env
-```
+
 
 Then update values:
 
-```env
+env
 PORT=5000
-MONGODB_URI=mongodb://127.0.0.1:27017/task-management
+MONGODB_URI=mongodb+srv://tekzaiaws:tekzai.aws@dashboard.wbnkx.mongodb.net/internify-task?retryWrites=true&w=majority&appName=dashboard
 JWT_SECRET=your-super-secret-key
-```
+
 
 3. Run development server:
 
-```bash
+bash
 npm run dev
-```
 
-4. Build and start production server:
 
-```bash
-npm run build
-npm start
-```
+
 
 ## API Base URL
 
